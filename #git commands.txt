@@ -1,0 +1,24 @@
+#git commands
+
+git init
+
+git checkout -b nueva_rama
+
+git status
+
+git config --global user.name "KiokoMc"
+
+git config --global user.email "kioskomc@gmail.com"
+
+git add .
+
+git commit - "First Commit"
+
+git log
+
+git checkout "hash" #Me regresa al punto donde se hizo este commit y solo me muestra lo que hice hasta aquì... 
+git chechout nueva_rama --> Me regresa al punto donde estoy en la actualidad
+
+git commit -a --> Es con vim ... Primero apretamos i para poder escribir
+              --> Al final le damos "Esc" para que deje de escribir, y escribimos :wq! para que guarde y salga
+              
